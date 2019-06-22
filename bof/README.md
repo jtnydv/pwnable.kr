@@ -1,6 +1,6 @@
 # bof
 
-Source code ([Link to binary][http://pwnable.kr/bin/bof]):
+Source code ([Link to binary](http://pwnable.kr/bin/bof)):
 
 ```c
 #include <stdio.h>
@@ -30,7 +30,7 @@ $ file bof
 bof: ELF 32-bit LSB pie executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=ed643dfe8d026b7238d3033b0d0bcc499504f273, not stripped
 ```
 
-For the users on 64-bit machines, you follow the solution mentioned [here][https://askubuntu.com/a/454254] to run the 32-bit binaries on 64-bit machines.
+For the users on 64-bit machines, you follow the solution mentioned [here](https://askubuntu.com/a/454254) to run the 32-bit binaries on 64-bit machines.
 
 As evident from the source code, it is clear that we have to overflow the `overflowme buffer` and pass the `if confition` on line number 8.
 
